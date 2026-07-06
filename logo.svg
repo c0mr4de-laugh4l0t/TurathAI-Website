@@ -43,7 +43,7 @@
     fill="#C5A059"
     letter-spacing="8"
     opacity="0.9"
-  >AI</text>
+  ></text>
   <circle cx="22" cy="22" r="2" fill="#C5A059" opacity="0.5"/>
   <circle cx="298" cy="22" r="2" fill="#C5A059" opacity="0.5"/>
   <circle cx="22" cy="118" r="2" fill="#C5A059" opacity="0.5"/>
