@@ -998,6 +998,20 @@ function calcFaraid() {
 }
 
 calcFaraid();
+  function replay() {
+  const els = ['markWrap','textLeft','textRight'];
+  const stage = document.getElementById('logoStage');
+  const sub = stage.querySelector('.arabic-sub');
+  els.forEach(id => {
+    const el = document.getElementById(id);
+    el.style.animation = 'none';
+    el.offsetHeight;
+    el.style.animation = '';
+  });
+  sub.style.animation = 'none';
+  sub.offsetHeight;
+  sub.style.animation = '';
+}
 </script>
 </body>
 </html>
